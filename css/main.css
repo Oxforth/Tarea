@@ -1,0 +1,87 @@
+#top {
+  background: white; }
+
+#red {
+  background: red;
+  width: 100px;
+  height: 100px;
+  float: left;
+  border-radius: 50px; }
+
+h1 {
+  width: 800px;
+  height: 100px;
+  float: left;
+  font-size: 40px; }
+
+#bn {
+  width: 500px;
+  height: 400px;
+  text-align: center; }
+
+neck {
+  float: left; }
+
+button {
+  height: 30px;
+  width: 170px;
+  background: white;
+  color: red;
+  border: 1 px solid; }
+
+button:hover {
+  background: red;
+  color: white;
+  transition: 1s; }
+
+body {
+  width: 800px;
+  height: 500px; }
+
+select {
+  height: 25px; }
+
+#data {
+  float: left;
+  width: 430px; }
+
+#left {
+  float: left;
+  width: 430px;
+  height: 569px; }
+
+#right {
+  float: left;
+  width: 450px;
+  height: 569px; }
+
+#edit {
+  width: 20px;
+  height: 20px;
+  background: green;
+  border-radius: 10px; }
+
+#delet {
+  width: 20px;
+  height: 20px;
+  background: red;
+  border-radius: 10px; }
+
+button {
+  display: block; }
+
+input {
+  display: block; }
+
+#totales {
+  width: 100px; }
+
+html {
+  background: white; }
+
+body {
+  width: 900px;
+  height: 700px;
+  margin: auto; }
+
+/*# sourceMappingURL=main.css.map */

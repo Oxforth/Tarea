@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tabla</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/tabla.js"></script>
+
+</head>
+
+<body>
+    <div id="left">
+        <select name="" id="prod">
+            <option value="Arroz">Arroz</option>
+            <option value="Papa">Papa</option>
+            <option value="Azúcar">Azúcar</option>
+            <option value="Queso">Queso</option>
+            <option value="Sal">Sal</option>
+        </select>
+        <h1 id="totales"></h1><br>
+        <input type="number" id="cant">
+        <button onclick="enviar()">ENVIAR</button>
+        <button onclick="modif()">MODIFICAR</button>
+    </div>
+    <div id="right">
+        <table id="data">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Cantidad</th>
+                    <th>Precio Unico</th>
+                    <th>Precio Total</th>
+                    <th colspan="2">Editar/Eliminar</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</body>
+
+</html>
